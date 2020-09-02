@@ -3,8 +3,8 @@
 
 int main(void) 
 {
+  float celsius, fahrenheit;
   char *celsius = readline("Enter temperature in celsius: ");
-  atof(celsius);
   fahrenheit = (celsius * 9 / 5) + 32;
   printf("%.2f Celsius = %.2f Fahrenheit", celsius, fahrenheit);
   return 0;
